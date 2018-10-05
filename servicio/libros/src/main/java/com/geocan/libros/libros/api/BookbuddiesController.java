@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.geocan.libros.libros.model.Book;
 
 @RestController
+
 public class BookbuddiesController {
 
 	

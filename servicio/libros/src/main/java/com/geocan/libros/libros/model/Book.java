@@ -3,61 +3,59 @@ package com.geocan.libros.libros.model;
 public class Book {
 	
 	
-	private String autor;
-	private String editorial;
-	private String imagen;
-	private String idioma;
-	private String contenido;
-	private String titulo;
+	private String author;
+	private String country;
+	private String imageLink;
+	private String language;
+	private String link;
+	private String title;
 	
 	
-	public Book(String autor, String editorial, String imagen, String idioma, String contenido, String titulo) {
+	
+	public Book(String author, String country, String imageLink, String language, String link, String title) {
 		super();
-		this.autor = autor;
-		this.editorial = editorial;
-		this.imagen = imagen;
-		this.idioma = idioma;
-		this.contenido = contenido;
-		this.titulo = titulo;
+		this.author = author;
+		this.country = country;
+		this.imageLink = imageLink;
+		this.language = language;
+		this.link = link;
+		this.title = title;
 	}
-	public String getAutor() {
-		return autor;
+	public String getAuthor() {
+		return author;
 	}
-	public void setAutor(String autor) {
-		this.autor = autor;
+	public void setAuthor(String author) {
+		this.author = author;
 	}
-	public String getEditorial() {
-		return editorial;
+	public String getCountry() {
+		return country;
 	}
-	public void setEditorial(String editorial) {
-		this.editorial = editorial;
+	public void setCountry(String country) {
+		this.country = country;
 	}
-	public String getImagen() {
-		return imagen;
+	public String getImageLink() {
+		return imageLink;
 	}
-	public void setImagen(String imagen) {
-		this.imagen = imagen;
+	public void setImageLink(String imageLink) {
+		this.imageLink = imageLink;
 	}
-	public String getIdioma() {
-		return idioma;
+	public String getLanguage() {
+		return language;
 	}
-	public void setIdioma(String idioma) {
-		this.idioma = idioma;
+	public void setLanguage(String language) {
+		this.language = language;
 	}
-	public String getContenido() {
-		return contenido;
+	public String getLink() {
+		return link;
 	}
-	public void setContenido(String contenido) {
-		this.contenido = contenido;
+	public void setLink(String link) {
+		this.link = link;
 	}
-	public String getTitulo() {
-		return titulo;
+	public String getTitle() {
+		return title;
 	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
+	public void setTitle(String title) {
+		this.title = title;
 	}
-	
-	
-	
 	
 }
